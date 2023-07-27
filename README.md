@@ -1,0 +1,5 @@
+# Malicious Url Detection with PySpark
+
+Big Data Computing - Final Project - 2021/2022
+
+The project "Malicio.us Url Detection with PySpark" aims to detect malicious URLs using machine learning algorithms. The internet's exponential growth has led to an increase in cybercrimes, making it crucial to protect users from malware, phishing, and other threats. The dataset used contains URL types such as benign, defacement, phishing, and malware. The dataset is unbalanced, so undersampling was performed to address this. Numerous features were added to the dataset, and an exploratory data analysis was conducted. Two classification approaches were explored: binary and multiclass. The multiclass classification provided more information but was challenging due to the dataset's imbalance. Better results could be achieved by increasing data using techniques like SMOTE or employing k-fold cross-validation. Various classification models, including logistic regression, decision tree, and random forest, were compared based on precision and recall metrics. The multiclass classification achieved precision and recall ranging from 0.70 to 0.86.
